@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #69c6ba, #66b7da), url('images/qq.jpg');
+    background-blend-mode: screen;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #3498db;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    animation: glowEffect 2s infinite alternate;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #2980b9;
+}
+
+.navbar a:first-child {
+    margin-right: auto;
+    font-size: 20px;
+}
+.uname{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.selection {
+    background-color: #fdeefd;
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 480px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.selection h2 {
+    margin: 5px;
+    font-size: 25px;
+    color: #1b4b6d;
+}
+
+.selection button {
+    background-color: #2980b9;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.selection button:hover {
+    background-color: #1b4b6d;
+}
+
+@keyframes glowEffect {
+    from {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    to {
+        text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+}

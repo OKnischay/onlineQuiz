@@ -1,0 +1,115 @@
+
+ * {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box  ;
+}
+
+body {
+    background: linear-gradient(to bottom, #8ab7e0, #66b7da), url('images/res.png');
+    background-blend-mode: screen;
+    background-position: left;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100nh;
+    overflow: hidden;
+}
+
+/* Navbar Styles */
+
+.navbar {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.navbar a:hover {
+    background-color: #2980b9;
+}
+
+/* Content Styles */
+
+.content {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 35px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.content h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.content p {
+    margin-bottom: 0;
+    color: #555;
+}
+
+/* Result Styles */
+
+.result {
+    margin-top: 30px;
+}
+
+.result p {
+    margin-bottom: 10px;
+}
+
+/* Hover Effect Styles */
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+.play-again-button {
+    display: inline-flex;
+    padding: 10px 40px;
+    margin: 0px 600px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #2980b9;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.play-again-button:hover {
+    background-color: #1b4b6d ;
+}
+
+.play-again-button:active {
+    background-color: #3d8f40;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
